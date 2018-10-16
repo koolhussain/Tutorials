@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class SingleThreaded 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Banking Activity Started");
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the Account No");
+		int acc = scan.nextInt();
+		System.out.println("Enter the Password");
+		int pwd = scan.nextInt();
+		Thread.sleep(3000);
+		System.out.println("Collect your Cash");
+		System.out.println("Banking Activity Completed");
+
+		System.out.println("Number printing Activity Started");
+		for(int i = 1; i<=5; i++)
+		{
+			System.out.println(i);
+			Thread.sleep(3000);
+		}
+		System.out.println("Number Printing Activity Completed");
+
+		System.out.println("Character Printing Activity");
+		for(int i=65; i<=70; i++)
+		{
+			System.out.println((char)i);
+			Thread.sleep(3000);
+		}
+		System.out.println("Character Printing Activity Completed");
+
+	}
+}
