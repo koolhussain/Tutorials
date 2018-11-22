@@ -1,0 +1,23 @@
+import java.io.*;
+import java.net.*;
+import java.util.*;
+class ClientAppMP 
+{
+	public static void main(String[] args) throws Exception
+	{
+		Socket csoc = new Socket("127.0.0.1", 10001);
+		OutputStream os = csoc.getOutputStream();
+		DataOutputStream dos = new DataOutputStream(os);
+		InputStream is = csoc.getInputStream();
+		DataInputStream dis = new DataInputStream(is);
+		Scanner scan = new Scanner(System.in);
+		for(int i=1; i<=3;i++)
+		{
+			String msg1 = scan.nextLine();
+			dos.writeUTF(msg1);
+			String msg2 = dis.readUTF();
+			System.out.println(msg2);
+		}
+
+	}
+}
