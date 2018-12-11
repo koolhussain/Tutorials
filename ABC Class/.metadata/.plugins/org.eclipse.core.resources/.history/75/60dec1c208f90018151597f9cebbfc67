@@ -1,0 +1,7 @@
+package com.abc.MagentoObjects;
+
+import org.openqa.selenium.By;
+
+public class Login {
+	By email = By.id("email");
+	}

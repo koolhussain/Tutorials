@@ -1,0 +1,20 @@
+package com.abc.magento;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LoginValidation {
+
+	public static void main(String[] args) {
+		FileInputStream fis = new FileInputStream("C:\\Users\\Ahmad\\eclipse-workspace\\DataDrivenFramework\\src\\com\\abc\\utilities\\data.properties");
+		Properties p = new Properties();
+		p.load(fis);
+		ChromeDriver driver = new ChromeDriver();
+		driver.get(url);
+		
+		driver.manage().window().maximize();
+	}
+
+}

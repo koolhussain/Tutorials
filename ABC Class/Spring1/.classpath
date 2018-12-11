@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/jstl.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-aop-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-asm-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-aspects-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-beans-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-context-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-context-support-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-core-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-expression-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-instrument-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-instrument-tomcat-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-jdbc-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-jms-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-orm-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-oxm-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-struts-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-test-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-tx-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-web-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-webmvc-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/spring-webmvc-portlet-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Frameworks/3 - Springs/Spring 3.1.1 jars/standard.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

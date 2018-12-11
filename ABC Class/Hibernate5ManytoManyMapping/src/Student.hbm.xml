@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Hibernate5.Student" table="ABC_STUDENT">
+		<id name="sid">
+			<generator class="increment"></generator>
+		</id>
+		<property name="sname"></property>
+		<set name = "course" table="STUDENT_COURSE" cascade="all">
+		<key column="sid"></key>
+		<many-to-many column="cid" class="Hibernate5.Course"></many-to-many>
+		</set>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,19 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="struts5" extends="struts-default">
+		<interceptors>
+			<interceptor name="I1" class="struts5.Exmp1"></interceptor>
+			<interceptor name="I2" class="struts5.Exmp2"></interceptor>
+		</interceptors>
+		<action name="register" class="struts5.RegisterAction">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<interceptor-ref name="I1"></interceptor-ref>
+			<interceptor-ref name="I2"></interceptor-ref>
+			<result name="s">success.jsp</result>
+			<result name="f">failure.jsp</result>
+			<result name="input">/register.jsp</result>
+		</action>
+	</package>
+</struts>

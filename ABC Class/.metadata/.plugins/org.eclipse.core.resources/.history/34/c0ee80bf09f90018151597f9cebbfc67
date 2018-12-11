@@ -1,0 +1,10 @@
+package com.abc.MagentoTest;
+
+public class MagentoApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

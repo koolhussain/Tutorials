@@ -1,0 +1,21 @@
+INDEX VERSION 1.131
+C:\Users\Ahmad\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1272308492.index
+\ResourceBundle\src
+C:\Users\Ahmad\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1156666965.index
+\struts5\src
+C:\Users\Ahmad\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2717802877.index
+\struts6\src
+C:\Users\Ahmad\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\862946469.index
+\struts6\src
+C:\Users\Ahmad\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\997745889.index
+\struts\src
+C:\Users\Ahmad\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\812236762.index
+\struts2\src
+C:\Users\Ahmad\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1831798762.index
+\Struts2\src
+C:\Users\Ahmad\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3746830906.index
+\struts4\src
+C:\Users\Ahmad\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4011035172.index
+\struts2\src
+C:\Users\Ahmad\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2322903394.index
+\struts3\src

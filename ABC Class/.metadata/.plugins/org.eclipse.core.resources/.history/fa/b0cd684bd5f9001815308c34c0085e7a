@@ -1,0 +1,38 @@
+package com.abc.magento;
+
+import java.io.FileInputStream;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LoginValidation {
+	static XSSFSheet sheet;
+	public static void main(String[] args) {
+		FileInputStream fis = new FileInputStream("C:\\Users\\Ahmad\\eclipse-workspace\\HybridDrivenFrameworkExcel\\src\\com\\abc\\utilities\\hybrid.xlsx");
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheetAt(0);
+		
+		int numberOfRows = sheet.getPhysicalNumberOfRows();
+		System.out.println(numberOfRows);
+		
+		for(int i=1;i<numberOfRows;i++) {
+			
+		}
+		
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get(arg0);
+		driver.quit();
+	}
+}
+
+static String getCellValue(int row, int col) {
+	XSSRow r1 = sheet.getRow(row);
+	XSSCell c1 = r1.getCell(col);
+	String data =c1.getStringCellValue();
+	return data;

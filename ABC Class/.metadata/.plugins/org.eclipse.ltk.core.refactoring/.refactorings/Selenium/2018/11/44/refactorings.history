@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Selenium/src/com/own/help/LaunchChrome.java&apos; to &apos;LC.java&apos;" description="Rename resource &apos;LaunchChrome.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/own/help/LaunchChrome.java" name="LC.java" stamp="1541078852452" updateReferences="true"/>
+</session>

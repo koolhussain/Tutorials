@@ -1,0 +1,5 @@
+package com.abc.MagentoObjects;
+
+public class Logout {
+
+}

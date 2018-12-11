@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Struts2/WebContent/loginSucess.jsp&apos; to &apos;loginSuccess.jsp&apos;" description="Rename resource &apos;loginSucess.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/loginSucess.jsp" name="loginSuccess.jsp" stamp="1542348861463" updateReferences="true"/>
+</session>

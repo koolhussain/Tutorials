@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Hibernate4.Book" table="BOOK">
+		<id name="bid">
+			<generator class="increment"></generator>
+		</id>
+		<property name="bname"></property>
+		<many-to-one name="publisher" cascade="all"></many-to-one>
+	</class>
+</hibernate-mapping>

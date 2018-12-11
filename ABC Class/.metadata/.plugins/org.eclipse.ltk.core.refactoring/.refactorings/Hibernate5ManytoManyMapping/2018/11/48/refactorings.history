@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Hibernate5ManytoManyMapping/src/Book.hbm.xml&apos; to &apos;Student.hbm.xml&apos;" description="Rename resource &apos;Book.hbm.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Book.hbm.xml" name="Student.hbm.xml" stamp="1543555960213" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Hibernate5ManytoManyMapping/src/Publisher.hbm.xml&apos; to &apos;Course.hbm.xml&apos;" description="Rename resource &apos;Publisher.hbm.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Publisher.hbm.xml" name="Course.hbm.xml" stamp="1543555973503" updateReferences="true"/>
+</session>

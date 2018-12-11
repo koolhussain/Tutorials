@@ -1,0 +1,19 @@
+package com.abc.MagentoObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Home {
+	By myacc = By.linkText("My Account");
+	WebDriver driver = new ChromeDriver();
+	
+	public Home(WebDriver driver) {
+		super();
+		this.driver = driver;
+	}
+	
+	public void clickOnMyAccount(driver) {
+		driver.findElement(myacc).click();
+	}
+}
